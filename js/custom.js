@@ -306,7 +306,7 @@
 	});
 	
 	// CountDown Js
-	var deadline = 'March 3 2018 08:00:00 GMT-0530';
+	var deadline = 'March 3 2018 08:06:00 GMT+0530';
 		function time_remaining(endtime){
 			var t = Date.parse(endtime) - Date.parse(new Date());
 			var seconds = Math.floor( (t/1000) % 60 );
